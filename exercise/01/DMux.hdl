@@ -15,4 +15,6 @@ CHIP DMux {
 
     PARTS:
     // Put your code here:
+    And(a=nsel, b=in, out=a);
+    And(a=sel,  b=in, out=b);
 }
